@@ -1,0 +1,38 @@
+.cardbottom {    
+    display: flex; 
+    padding: 60px;
+    width: auto; 
+    flex-wrap: wrap;
+    flex-direction: column;      
+    justify-content: center;    
+    height: 400px; 
+    margin: 10px 50px;
+   
+       
+}
+
+.cardbottom-img {
+    height: 500px;
+    width: 250px;    
+}
+
+.cardbottom-body{
+    display: flex;  
+    padding: 50px; 
+   margin-top: -80px;
+    margin-left: -580px;
+    padding: 100px;
+    flex-direction: column;
+    
+    
+}
+
+.cardbottom-tittle {
+    text-align: start;
+    margin-top: 30px;
+    font-size: px;
+    margin-left: 480px;
+    margin-bottom:10px ;    
+    padding-right: 100px;
+
+}

@@ -1,0 +1,55 @@
+.header {
+    width:100%;
+    /* cursor: pointer; */
+    position: fixed;
+    display: flex;
+    background-color: #000;  
+    padding: 5px 10px;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+
+.logo{   
+        margin-left: 50px;
+        margin-right: -350px;    
+}
+
+.M, .C{
+    font-size: 40px;
+}
+
+
+.bottons{
+    margin-right: 50px;
+    margin-top: 7px;
+    
+}
+.search{
+    margin-top: 7px;
+}
+
+.bottons-products button{
+    margin-top: 17px ;    
+    border: unset;
+    background-color: #000;
+    color: white;
+    cursor: pointer; 
+    
+}
+
+.b1:hover, 
+.b2:hover, 
+.b3:hover , 
+.b4:hover {    
+    color: rgb(216, 216, 38);
+}
+
+.b1, .b2, .b3 , .b4{
+    margin: 10px;  
+     
+}
+
+

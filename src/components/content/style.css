@@ -1,0 +1,90 @@
+.content {    
+    background-color:#ffff;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;     
+}
+
+
+.imagem-02, .imagem-03, .imagem-04 {
+    height: 400px;
+    width: 200px;
+    
+}
+
+.card-title, .card-strong, .card-title1 {
+    text-align: center;
+    padding: 10px 0;
+}
+.card-title, .card-title1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.card-strong{
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.card-subtitle, .card-subtitle1 {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 60px;
+    margin: 0 200px; 
+    
+}
+.card-subtitle {
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
+.title-midle {
+    margin-top: 25px;     
+    padding: 50px;
+    text-align: center;
+}
+
+.p{
+    margin-top: -30px;
+    font-size: 40px;
+}
+
+.bar-left {       
+    margin-right: 1070px;
+}
+.bar-right{
+    margin-top: -65px;
+    margin-left: 1070px; 
+}
+
+.title-final {    
+    text-align: center;
+}
+
+
+.bar-leftfinal {
+    margin-right: 900px;
+    margin-left: 50px;
+}
+
+.bar-rightfinal{
+    margin-right: 50px;
+    margin-left: 900px; 
+    margin-top: -20px;
+
+}
+.p-boldfinal{
+    font-size: 40px;
+    text-align: start;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.p-regularfinal{
+    font-size: 50px;
+    text-align: end;
+    margin-right: 300px;
+    margin-top: 10px;
+
+}
