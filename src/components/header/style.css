@@ -14,10 +14,11 @@
 
 .logo{   
         margin-left: 50px;
-        margin-right: -350px;   
-        font-family: GOTHAM-LIGHT;
         
-}
+        font-family: GOTHAM-LIGHT; 
+        padding: 10px;  
+        
+    }
 
 .M, .C{
     font-size: 40px;
@@ -27,12 +28,19 @@
 .bottons{
     margin-right: 50px;
     margin-top: 7px;
-    overflow: hidden;
-    
-    
+    overflow: hidden;     
 }
-.search{
-    margin-top: 7px;
+
+
+.form-control{
+    margin-top: 17px ; 
+    margin-bottom: 17px; 
+    background-color: #000;
+    border-left:#fff  ;
+    border-right: #fff;
+    border-top: #fff;
+    /* width: 100px; */
+    padding: 0 100px;
 }
 
 .bottons-products button{
@@ -41,8 +49,8 @@
     background-color: #000;
     color: white;
     cursor: pointer; 
-    font-family: GOTHAM-LIGHT;
-    
+    font-family: GOTHAM-LIGHT;   
+    padding: 10px;     
 }
 
 .b1:hover, 
@@ -53,8 +61,17 @@
 }
 
 .b1, .b2, .b3 , .b4{
-    margin: 10px;  
-     
+    margin: 10px;       
+}
+
+.local, .User, .Phone, .Bag {
+    transform: scale(1);
+    transition: all ease 0.5s;
+
+}
+
+.local:hover, .User:hover, .Phone:hover, .Bag:hover{
+    transform: scale(1.2);
 }
 
 

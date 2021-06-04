@@ -13,8 +13,10 @@ function App() {
     <Header />
     <div className="App-content">       
       <Content /> 
-      
+
       <Footer />        
+      
+      
     </div>
     </>
     

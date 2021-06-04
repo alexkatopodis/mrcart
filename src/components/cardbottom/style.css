@@ -1,15 +1,17 @@
 .cardbottom {     
     margin: 50px;
     display: flex; 
-    padding: 10px;
+    padding: 5px;
     flex-direction: row;
     flex-wrap: wrap;               
 }
 
 .cardbottom-body{    
     display: flex;
-    padding: 100px;
-    margin-top: 20px;     
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 2px;       
 }
 
 
@@ -17,15 +19,38 @@
 .cardbottom-subtittle{
     text-align: left;
     font-size: 16px;  
-    font-family: GOTHAM-LIGHT;  
+    font-family: GOTHAM-LIGHT;   
+    margin-top: 30px;
+    padding-top: 40px;
 }
 
 .card-img{
   display: flex;
-  height: 400px;  
+  height: 500px;  
 }
 
 br {
 margin-bottom: 30px;
+}
+
+.cardbottom-body-left{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;  
+}
+
+.card-img-left{
+    float: right;
+    height: 500px;  
+}
+.cardbottom-subtittle-left{
+        
+    text-align: left;
+    font-size: 16px;  
+    font-family: GOTHAM-LIGHT;   
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 90px;
 }
 
