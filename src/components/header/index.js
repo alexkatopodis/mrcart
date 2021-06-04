@@ -1,13 +1,10 @@
 import React from 'react';
 import './style.css';
-import SearchIcon from '@material-ui/icons/Search';
 import RoomOutlinedIcon from '@material-ui/icons/RoomOutlined';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import PhoneEnabledOutlinedIcon from '@material-ui/icons/PhoneEnabledOutlined';
 import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-
-
 
 
 const Header = () => {

@@ -2,11 +2,97 @@
     width: 100%;
     height: 300px;
     margin-bottom: -100px;  
-    
+       
 }
 
 .footer-line1{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     display: flex;
+    margin-left: 30px;
+    
+}
+
+.footer-line1 button {
+    background-color: #ffff;
+    color: #000;
+    border: unset;
+    cursor: pointer;    
+    font-family: GOTHAM-BOLD;
+    margin: 20px 30px;      
+}
+
+.footer-line1 button img {
+    height: 20px;
+}
+
+.footer-line1icons {
+    margin-left: 800px;
+    width: 130px;      
+}
+
+.footer-line2 {    
+    display: flex;    
+    justify-content: space-around;
+    padding: 10px 120px;
+    margin-bottom: 20px;    
+}
+
+.footer-line2 button {
+    background-color: #ffff;
+    color: #000;
+    border: unset;
+    cursor: pointer;    
+    font-family: GOTHAM-MEDIUM;
+    width: 190px;    
+}
+
+.footer-line2 button img {
+    height: 60px;
+}
+
+.footer-line3 {
+    display: flex;    
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-line3 button {
+    background-color: #ffff;
+    color: #000;
+    border: unset;
+    cursor: pointer;    
+    font-family: GOTHAM-MEDIUM;
+}
+
+.footer-line3 button:hover{
+   
+    color: rgb(202, 202, 47);
+}
+
+.bar-footer1, .bar-footer2 {
+    margin: 10px 0px 10px 0px;
+}
+
+.bar-footercategory{
+    text-align: center;
+    font-size: 12px;
+    font-family: GOTHAM-MEDIUM;
+}
+
+.footer-finaltext {
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: GOTHAM-LIGHT;
+}
+
+.footer-finaltext1{
+    text-align: center;
+    font-size: 10px;
+    font-family: GOTHAM-LIGHT;
+    color:red;
+    margin-top: -20px;   
+    padding: 10px; 
 }

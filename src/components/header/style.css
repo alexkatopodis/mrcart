@@ -1,7 +1,6 @@
 .header {
     width:100%;
-    z-index: 999;
-    /* cursor: pointer; */
+    z-index: 999;    
     position: fixed;
     display: flex;
     background-color: #000;  
@@ -14,10 +13,10 @@
 
 .logo{   
         margin-left: 50px;
-        
+        cursor: pointer;        
         font-family: GOTHAM-LIGHT; 
-        padding: 10px;  
-        
+        padding: 10px; 
+        z-index: 999;         
     }
 
 .M, .C{
@@ -50,7 +49,8 @@
     color: white;
     cursor: pointer; 
     font-family: GOTHAM-LIGHT;   
-    padding: 10px;     
+    padding: 10px;
+         
 }
 
 .b1:hover, 
