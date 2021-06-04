@@ -1,9 +1,6 @@
 import React from 'react';
 import './style.css';
 import Img01 from '../../assets/image/img01.jpg';
-
-// import Img03 from '../../assets/image/img03.jpg';
-// import Img04 from '../../assets/image/img04.jpg';
 import SimpleCard from '../card';
 import CardBottom from '../cardbottom';
 

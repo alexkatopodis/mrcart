@@ -23,7 +23,7 @@
     height: 200px;   
     align-self: center;   
     text-align: center;
-    font-size: 15px;     
+       
 }
 
 .card-icon {
@@ -32,4 +32,6 @@
 }
 .card-text {
     margin-bottom: 45px; 
+    font-family: GOTHAM-LIGHT;
+    font-size: 13px;  
 }

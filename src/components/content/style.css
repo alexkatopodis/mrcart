@@ -3,7 +3,8 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;     
+    margin-bottom: 100px;
+         
 }
 
 
@@ -15,23 +16,28 @@
 
 .card-title, .card-strong, .card-title1 {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .card-title, .card-title1 {
     font-size: 50px;
-    font-weight: 300;
+    font-family: GOTHAM-LIGHT;
+    
+        
+    
 }
 
 .card-strong{
     font-size: 100px;
     font-weight: 800;
+    font-family: GOTHAM-BOLD;
 }
 
 .card-subtitle, .card-subtitle1 {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     padding-bottom: 60px;
     margin: 0 200px; 
+    font-family: GOTHAM-XLIGHT;
     
 }
 .card-subtitle {
@@ -47,7 +53,8 @@
 
 .p{
     margin-top: -30px;
-    font-size: 40px;
+    font-size: 30px;
+    font-family: GOTHAM-BOLD;
 }
 
 .bar-left {       
@@ -79,6 +86,7 @@
     text-align: start;
     margin-left: 300px;
     margin-bottom: 10px;
+    font-family: GOTHAM-BOLD;
 }
 
 .p-regularfinal{
@@ -86,16 +94,19 @@
     text-align: end;
     margin-right: 300px;
     margin-top: 10px;
+    font-family: GOTHAM-XLIGHT;
 }
 
 
 .button-all{
     background-color: #000;
-    height: 60px;
-    width: 800px;
+    height: 80px;
+    width: 700px;
     font-size: 30px;
     color: #fff;
     cursor: pointer; 
+    font-weight: 400;
+    font-family: GOTHAM-XLIGHT;  
 }
 
 .button-all:hover {    

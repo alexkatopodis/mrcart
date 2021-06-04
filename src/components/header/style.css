@@ -14,7 +14,9 @@
 
 .logo{   
         margin-left: 50px;
-        margin-right: -350px;    
+        margin-right: -350px;   
+        font-family: GOTHAM-LIGHT;
+        
 }
 
 .M, .C{
@@ -25,6 +27,8 @@
 .bottons{
     margin-right: 50px;
     margin-top: 7px;
+    overflow: hidden;
+    
     
 }
 .search{
@@ -37,6 +41,7 @@
     background-color: #000;
     color: white;
     cursor: pointer; 
+    font-family: GOTHAM-LIGHT;
     
 }
 
