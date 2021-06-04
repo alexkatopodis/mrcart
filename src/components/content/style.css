@@ -86,5 +86,18 @@
     text-align: end;
     margin-right: 300px;
     margin-top: 10px;
+}
 
+
+.button-all{
+    background-color: #000;
+    height: 60px;
+    width: 800px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer; 
+}
+
+.button-all:hover {    
+    color: rgb(216, 216, 38);
 }
